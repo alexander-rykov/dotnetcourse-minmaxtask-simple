@@ -1,0 +1,2 @@
+language = "csharp"
+run = "mcs main.cs MaxTask.cs MinTask.cs MaxTaskTests.cs MinTaskTests.cs -o MinMaxTasks.exe && mono MinMaxTasks.exe"
